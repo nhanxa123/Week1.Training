@@ -75,7 +75,7 @@ function win(userChoice, computerChoice) {
 function lose(userChoice, computerChoice) {
     computerScore++;
     computerScoreSpan.innerHTML = computerScore;
-    resultDiv.innerHTML = ` The choice of computer ${convertKeyWords(computerChoice)} 🤣 You lose! `;
+    resultDiv.innerHTML = ` The choice of computer: ${convertKeyWords(computerChoice)} 🤣 You lose! `;
 }
 
 function draw(userChoice, computerChoice) {
